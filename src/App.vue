@@ -3,7 +3,7 @@
  * @Email: wangdelei4406@yundasys.com
  * @Date: 2025-02-17 10:05:11
  * @LastEditors: wdl
- * @LastEditTime: 2025-02-17 16:26:12
+ * @LastEditTime: 2025-02-25 09:10:47
  * @Description: 
 -->
 <template>
@@ -53,7 +53,7 @@
 <script>
 // active20250205
 // active20250211
-import { active20250205 } from "./config";
+import { active20250101 } from "./config";
 export default {
   name: "App",
   data() {
@@ -71,7 +71,7 @@ export default {
     };
   },
   mounted() {
-    this.initActive(active20250205);
+    this.initActive(active20250101);
   },
   methods: {
     initActive(list) {

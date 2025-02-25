@@ -3,9 +3,10 @@
  * @Email: wangdelei4406@yundasys.com
  * @Date: 2025-02-17 11:13:06
  * @LastEditors: wdl
- * @LastEditTime: 2025-02-17 16:12:52
+ * @LastEditTime: 2025-02-25 09:18:00
  * @Description:
  */
+
 // 星神活动
 export const active20250205 = [
   {
@@ -222,7 +223,7 @@ export const active20250211 = [
     type: 3,
   },
 ];
-
+// 金蛇活动
 export const active20250125 = [
   {
     title: "司雨",
@@ -315,6 +316,203 @@ export const active20250125 = [
     title: "积分*3",
     value: 3,
     rate: 50,
+    count: 0,
+    type: 3,
+  },
+];
+// 幻神活动
+export const active20250221 = [
+  {
+    title: "王者风神",
+    rate: 0.15,
+    count: 20,
+    type: 1,
+  },
+  {
+    title: "隼",
+    rate: 0.2,
+    count: 15,
+    type: 1,
+  },
+  {
+    title: "G36C-幻影",
+    rate: 0.2,
+    count: 15,
+    type: 1,
+  },
+  {
+    title: "M200-幻神",
+    rate: 0.25,
+    count: 12,
+    type: 1,
+  },
+  {
+    title: "王者-魅影",
+    rate: 0.3,
+    count: 8,
+    type: 1,
+  },
+  {
+    title: "幻神-电流骇客皮肤",
+    rate: 0.3,
+    count: 8,
+    type: 1,
+  },
+  {
+    title: "黑鲨-电流骇客皮肤",
+    rate: 0.6,
+    count: 4,
+    type: 1,
+  },
+  {
+    title: "机械猎手-幻灵猎姬",
+    rate: 1.0,
+    count: 2,
+    type: 1,
+  },
+  {
+    title: "M200-幻神蓝粉色光效",
+    rate: 1.5,
+    count: 1,
+    type: 1,
+  },
+  {
+    title: "魅影玩偶",
+    rate: 1.5,
+    count: 1,
+    type: 1,
+  },
+  {
+    title: "幻灵宝箱",
+    rate: 6.8,
+    count: 0,
+    type: 2,
+  },
+  {
+    title: "积分*100",
+    value: 100,
+    rate: 0.2,
+    type: 3,
+  },
+  {
+    title: "积分*15",
+    value: 15,
+    rate: 2,
+    type: 3,
+  },
+  {
+    title: "积分*9",
+    value: 9,
+    rate: 10,
+    type: 3,
+  },
+  {
+    title: "积分*8",
+    value: 8,
+    rate: 35,
+    type: 3,
+  },
+  {
+    title: "积分*7",
+    value: 7,
+    rate: 40,
+    count: 0,
+    type: 3,
+  },
+];
+
+// 冠军皮肤
+export const active20250101 = [
+  {
+    title: "幻神-星火小队皮肤",
+    rate: 0.1,
+    count: 12,
+    type: 1,
+  },
+  {
+    title: "knife-冠军之刃",
+    rate: 0.1,
+    count: 12,
+    type: 1,
+  },
+  {
+    title: "炽芒蝶刃-皮肤",
+    rate: 0.15,
+    count: 9,
+    type: 1,
+  },
+  {
+    title: "星神-巅峰荣耀皮肤",
+    rate: 0.2,
+    count: 7,
+    type: 1,
+  },
+  {
+    title: "黑龙-冠军之武",
+    rate: 0.3,
+    count: 4,
+    type: 1,
+  },
+  {
+    title: "毁灭-冠军皮肤",
+    rate: 0.4,
+    count: 3,
+    type: 1,
+  },
+  {
+    title: "EP-战队炫彩背包",
+    rate: 0.8,
+    count: 2,
+    type: 1,
+  },
+  {
+    title: "EP-战队收纳包",
+    rate: 1.2,
+    count: 1,
+    type: 1,
+  },
+  {
+    title: "王者之石",
+    rate: 7.15,
+    count: 0,
+    isDisabled: true,
+    type: 2,
+  },
+  {
+    title: "积分*100",
+    value: 100,
+    rate: 0.1,
+    type: 3,
+  },
+  {
+    title: "积分*20",
+    value: 20,
+    rate: 0.5,
+    type: 3,
+  },
+  {
+    title: "积分*10",
+    value: 9,
+    rate: 4,
+    type: 3,
+  },
+  {
+    title: "积分*8",
+    value: 8,
+    rate: 5,
+    type: 3,
+  },
+  {
+    title: "积分*6",
+    value: 6,
+    rate: 40,
+    count: 0,
+    type: 3,
+  },
+  {
+    title: "积分*5",
+    value: 5,
+    rate: 40,
     count: 0,
     type: 3,
   },
